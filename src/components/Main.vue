@@ -3,7 +3,7 @@
     <h1>{{ title }}</h1>
     <input v-model='text' placeholder='Please Enter text'>
 
-    <h3>Example 2</h3>
+    <h3>Example</h3>
     <CircleType :shape='shape' :text="text"></CircleType>
   </div>
 </template>

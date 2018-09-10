@@ -21,19 +21,19 @@
     watch: {
       text () {
         this.clear()
-        this.drawCircle()
+        this.draw()
       }
     },
     mounted () {
       this.calculateShapes(this.shape)
-      this.drawCircle()
+      this.draw()
     },
     methods: {
       calculateShapes (shapeArr) {
         const that = this
         this.mainShapeArr = shapeArr.map(shape => Object.assign({}, that.mainShape, shape))
       },
-      drawCircle () {
+      draw () {
         const svg = d3.select(this.$el)
         const g = svg.selectAll('g')
           .data(this.mainShapeArr)
