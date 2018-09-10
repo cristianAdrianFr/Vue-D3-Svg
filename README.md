@@ -1,6 +1,6 @@
-# vue_d3_test
+# Vue-D3-SVG(test task)
 
-> A Vue.js project
+> Vue and D3 simple project for test task
 
 ## Build Setup
 
